@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Junar Client module
+ */
+
+/**
+ * Implements hook_help().
+ */
+function junar_client_help($path, $arg) {
+	switch ($path) {
+		case 'admin/help#junar-client':
+			$output = '<h3>' . t('About') . '</h3>';
+			$output .= t('Junar Client module to manage the access to Juna platform API. ');
+			return $output;	
+		case 'admin/config/services/junar-client':
+      		return '<p>' . t('Configure the access to Junar Platform.') . '</p>';
+	}
+}
+
+/**
+ * Implements hook_permission().
+ */
+function junar_client_permission() {
+  return array(
+    'administer junar client manager' => array(
+      'title' => t('Manage Junar Client'),
+      'description' => t('Administer Junar Client access.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function junar_client_menu() {
+	$items = array();
+	
+	$items['admin/config/services/junar-client'] = array(
+    	'title' => 'Junar Client',
+    	'description' => 'Manage the Junar Client access to the platform API',
+    	'page callback' => 'drupal_get_form',
+    	'page arguments' => array('junar_client_configuration_form'),
+    	'access arguments' => array('administer junar client manager'),
+    	'type' => MENU_NORMAL_ITEM,
+	    'weight' => 1,
+    	'file' => 'junar_client.admin.inc',
+  	);
+  	
+  	return $items;
+}
