@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		initComponents();
 		loadStartData();
 	}
 
@@ -43,6 +44,7 @@ public class MainActivity extends Activity {
 
 	private void initComponents() {
 
+		communitiesListView = (ListView) findViewById(R.id.main_communities);
 	}
 
 	private void loadStartData() {

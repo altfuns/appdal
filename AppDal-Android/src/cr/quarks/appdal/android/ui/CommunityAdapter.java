@@ -40,17 +40,17 @@ public class CommunityAdapter extends BaseAdapter{
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         Community community = communities.get(position);
         if (convertView == null) {
-            convertView = inflater.inflate(R.layout.activity_main, null);
+            convertView = inflater.inflate(R.layout.community_item_layout, null);
 
             holder = new CommunityViewHolder();
             holder.position = (TextView) convertView
-                    .findViewById(R.id.menu_settings);
+                    .findViewById(R.id.community_item_position);
             holder.name = (TextView) convertView
-                    .findViewById(R.id.menu_settings);
+                    .findViewById(R.id.community_item_name);
             holder.location = (TextView) convertView
-                    .findViewById(R.id.menu_settings);
+                    .findViewById(R.id.community_item_location);
             holder.add = (ImageView) convertView
-                    .findViewById(R.id.menu_settings);
+                    .findViewById(R.id.community_item_link);
 
             convertView.setTag(holder);
         } else {
