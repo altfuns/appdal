@@ -50,3 +50,7 @@ function appdal_menu() {
   	
   	return $items;
 }
+
+function appdal_node_view($node, $view_mode, $langcode) {
+	dpm($node);
+}
