@@ -44,13 +44,13 @@ function _update_appdal_data() {
 	$homicidiosCulpososURL = 'C:\Users\Rodolfo\git\appdal\AppDal-Server\drupal\sites\all\modules\custom\appdal\response2.xml';
 	
 	// Call Junar to get and process the data
-	_getDataSetFromGrupoInco($homicidiosDolososURL, $region_data, 5);
-//	_getDataSetFromGrupoInco($homicidiosCulpososURL, $region_data, 4);
+	_getDataSetFromGrupoInco($homicidiosDolososURL, $region_data, 5, true);
+	_getDataSetFromGrupoInco($homicidiosCulpososURL, $region_data, 4, false);
 
 	// Create or update the nodes for 'comunidades'
 	foreach ($region_data as $key => $region) {
-//		_create_comunidad_node($region['region_name'], $region['score'], 
-//			$region['region_id'], $key);
+		_create_comunidad_node($region['region_name'], $region['score'], 
+			$region['region_id'], $key);
 	}
 }
 
@@ -80,7 +80,7 @@ function _getPoliticRegionData() {
 /**
  * Function to parse the xml response for Grupo Inco datasets.
  */
-function _getDataSetFromGrupoInco($guid, &$region_data, $start_index) {
+function _getDataSetFromGrupoInco($guid, &$region_data, $start_index, $include_records) {
 	try {
 		$EMPTY_STRING = '';
 		
@@ -109,7 +109,9 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index) {
 							$region_data[$region_key]['score'] = 
 								$region_data[$region_key]['score'] + ($row->column[2] . '');
 						} else {
-							$region_data[$region_key]['score'] = $row->column[2] . '';
+							if ($include_records) {
+								$region_data[$region_key]['score'] = $row->column[2] . '';
+							}
 						}
 					}
 					
@@ -117,8 +119,8 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index) {
 						$temp_last = $provincia_canton . '';	
 					}
 				}
-				
-				drupal_set_message('The data was updated successfully');
+//				dpm($region_data);
+				drupal_set_message('The data from '. $guid . ' was updated successfully');
 			}
 		}
 	} catch (Exception $exception) {
