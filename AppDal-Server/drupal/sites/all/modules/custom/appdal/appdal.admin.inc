@@ -45,7 +45,13 @@ function _update_appdal_data() {
 	
 	// Call Junar to get and process the data
 	_getDataSetFromGrupoInco($homicidiosDolososURL, $region_data, 5);
-	_getDataSetFromGrupoInco($homicidiosCulpososURL, $region_data, 4);
+//	_getDataSetFromGrupoInco($homicidiosCulpososURL, $region_data, 4);
+
+	// Create or update the nodes for 'comunidades'
+	foreach ($region_data as $key => $region) {
+//		_create_comunidad_node($region['region_name'], $region['score'], 
+//			$region['region_id'], $key);
+	}
 }
 
 /**
@@ -57,13 +63,15 @@ function _getPoliticRegionData() {
 	// Query to the database
 	$politic_regions = db_select('appdal_politic_region', 'pr1');
 	$politic_regions->join('appdal_politic_region', 'pr2', 'pr1.prid = pr2.parent_prid');
- 	$politic_regions->fields('pr1', array('prid', 'name'));
- 	$politic_regions->fields('pr2', array('name'));
+ 	$politic_regions->fields('pr2', array('prid', 'name'));
+ 	$politic_regions->fields('pr1', array('name'));
+ 	$politic_regions->condition('pr1.parent_prid', -1, '!=');
 	$query_result = $politic_regions->execute();
  	
  	// Parse the regions to create the array
  	while($record = $query_result->fetchAssoc()) {
-        $result[$record['name'] . '-' . $record['pr2_name']] = 0;
+        $result[$record['name'] . ', ' . $record['pr1_name']] = 
+        	array('score' => 0, 'region_id' => $record['prid'], 'region_name' => $record['name']);
     }
  	
  	return $result;
@@ -95,13 +103,13 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index) {
 					
 					// Check if the region is a 'distrito'
 					if ($distrito != $EMPTY_STRING) {
-						$region_key = $temp_last . '-' . $distrito;
+						$region_key = $distrito . ', ' . $temp_last;
 						
 						if (array_key_exists($region_key, $region_data)) {
-							$region_data[$region_key] = 
-								$region_data[$region_key] + ($row->column[2] . '');
+							$region_data[$region_key]['score'] = 
+								$region_data[$region_key]['score'] + ($row->column[2] . '');
 						} else {
-							$region_data[$region_key] = $row->column[2] . '';
+							$region_data[$region_key]['score'] = $row->column[2] . '';
 						}
 					}
 					
@@ -110,7 +118,7 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index) {
 					}
 				}
 				
-				dpm($region_data);
+				drupal_set_message('The data was updated successfully');
 			}
 		}
 	} catch (Exception $exception) {
@@ -129,4 +137,51 @@ function _callJunarAPI($guid, $junarApiKey) {
 //    $datastream = $junarAPIClient->datastream($guid);
 //    $response = $datastream->invoke($params = array(), $output = $OUTPUT_DATA_TYPE);
 //	  return $response;
+}
+
+/**
+ * Function to create the 'comunidad' nodes.
+ */
+function _create_comunidad_node($node_title, $node_calificacion, 
+		$node_id_region_politica, $node_region_politica) {
+	global $user;
+	
+	$COMUNIDAD_CONTENT_TYPE = 'comunidad';
+
+	$node = new stdClass();
+	$node->title = $node_title;
+	$node->type = 'comunidad';
+		  
+	// Sets some defaults. Invokes hook_prepare() and hook_node_prepare().
+	node_object_prepare($node); 
+	$node->language = LANGUAGE_NONE; 
+	$node->uid = $user->uid; 
+	$node->status = 1;
+	$node->promote = 0;
+	$node->comment = 1;
+
+	// Fields of the content type	
+	$node->field_ranking[$node->language][0]['value'] = _get_comunity_ranking($node_calificacion);
+	$node->field_calificacion[$node->language][0]['value'] = $node_calificacion;
+	$node->field_id_region_politica[$node->language][0]['value'] = $node_id_region_politica;
+	$node->field_region_politica[$node->language][0]['value'] = $node_region_politica;
+		
+	// Node saving
+	$node = node_submit($node); 
+	node_save($node);
+}
+
+/**
+ * Function to get the rankings of the communities.
+ */
+function _get_comunity_ranking($score) {
+	$rankings = array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
+	
+	for ($index_ranking = 0; $index_ranking < count($rankings) - 1; $index_ranking++) {
+		if ($score >= $rankings[$index_ranking] && $score < $rankings[$index_ranking + 1]) {
+			return $index_ranking + 1;
+		}		
+	}
+	
+	return 0;
 }
