@@ -85,7 +85,7 @@ function appdal_custom_action($node, $context = array()) {
 		// Determine which action perform
 		switch ($action_node->type) {
 			case $ACTIONS[0]:
-						
+					
 				break;
 			case $ACTIONS[1]:
 						
@@ -108,5 +108,23 @@ function appdal_custom_action($node, $context = array()) {
 			default:
 				break;
 		}
+		
+		_sendNotificationToDevices();
 	}
+}
+
+/**
+ * Function to send a notification to the subscribed devices
+ */
+function _sendNotificationToDevices() {
+	$NOTIFICATION_ENDPOINT = 'http://200.122.178.181:8080/gcm-demo/sendAll'; 
+	$ch = curl_init($NOTIFICATION_ENDPOINT);
+ 
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS, '');
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	 
+	$response = curl_exec($ch);
+	curl_close($ch);
+	dpm($response);
 }
