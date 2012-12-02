@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * AppDAL module
+ */
+
+/**
+ * Implements hook_help().
+ */
+function appdal_help($path, $arg) {
+	switch ($path) {
+		case 'admin/help#appdal':
+			$output = '<h3>' . t('About') . '</h3>';
+			$output .= t('AppDAL module to manage the data for the mobile application.');
+			return $output;	
+		case 'admin/config/services/appdal':
+      		return '<p>' . t('Configure the AppDAL.') . '</p>';
+	}
+}
+
+/**
+ * Implements hook_permission().
+ */
+function appdal_permission() {
+  return array(
+    'administer appdal manager' => array(
+      'title' => t('Manage AppDAL'),
+      'description' => t('Administer AppDAL.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_menu().
+ */
+function appdal_menu() {
+	$items = array();
+	
+	$items['admin/config/services/appdal'] = array(
+    	'title' => 'AppDAL',
+    	'description' => 'Manage AppDAL',
+    	'page callback' => 'drupal_get_form',
+    	'page arguments' => array('appdal_configuration_form'),
+    	'access arguments' => array('administer appdal manager'),
+    	'type' => MENU_NORMAL_ITEM,
+	    'weight' => 1,
+    	'file' => 'appdal.admin.inc',
+  	);
+  	
+  	return $items;
+}

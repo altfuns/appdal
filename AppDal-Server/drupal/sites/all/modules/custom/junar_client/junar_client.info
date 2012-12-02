@@ -1,0 +1,7 @@
+name = Junar Client
+description = Manage the access to Junar Platform API
+package = Quarks
+core = 7.x
+
+configure = admin/config/services/junar-client
+version = "7.x-1.0"
