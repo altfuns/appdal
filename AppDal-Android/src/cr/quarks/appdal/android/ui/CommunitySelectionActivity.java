@@ -8,8 +8,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
 import android.widget.SearchView;
+import cr.quarks.appdal.android.AppDalApp;
+import cr.quarks.appdal.android.MainActivity;
 import cr.quarks.appdal.android.R;
 import cr.quarks.appdal.android.R.id;
 import cr.quarks.appdal.android.R.layout;
@@ -17,6 +20,7 @@ import cr.quarks.appdal.android.R.menu;
 import cr.quarks.appdal.android.entity.Community;
 import cr.quarks.appdal.android.service.AppDalService;
 import cr.quarks.appdal.android.service.AppDalServiceImpl;
+import cr.quarks.appdal.android.ui.CommunityAdapter.OnCommunityLinkClickListener;
 import cr.quarks.appdal.android.util.BackgroundTask;
 import cr.quarks.appdal.android.util.LogIt;
 
@@ -52,7 +56,8 @@ public class CommunitySelectionActivity extends Activity {
 	private void initComponents() {
 
 		communitiesListView = (ListView) findViewById(R.id.community_selection_list);
-		
+		adapter = new CommunityAdapter();
+		adapter.setOnCommunityLinkClickListener(communityLinkClickListener);
 		// Get the intent, verify the action and get the query
 	    Intent intent = getIntent();
 	    if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
@@ -73,7 +78,6 @@ public class CommunitySelectionActivity extends Activity {
 
 			@Override
 			public void done() {
-				adapter = new CommunityAdapter();
 				adapter.setItems(communities);
 				communitiesListView.setAdapter(adapter);
 			}
@@ -83,4 +87,17 @@ public class CommunitySelectionActivity extends Activity {
 	private void search(String query){
 		LogIt.d(this, query);
 	}
+	
+	private OnCommunityLinkClickListener communityLinkClickListener = new OnCommunityLinkClickListener() {
+		
+		@Override
+		public void onClick(View v, Community community) {
+			if(community != null){
+				AppDalApp.getInstance().setUserCommunityId(community.getId());
+				AppDalApp.getInstance().setCommunity(community);
+				startActivity(new Intent(CommunitySelectionActivity.this, MainActivity.class));
+			}
+			
+		}
+	};
 }

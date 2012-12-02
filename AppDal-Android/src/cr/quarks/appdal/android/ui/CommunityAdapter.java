@@ -2,6 +2,7 @@ package cr.quarks.appdal.android.ui;
 
 import java.util.List;
 
+import cr.quarks.appdal.android.AppDalApp;
 import cr.quarks.appdal.android.R;
 import cr.quarks.appdal.android.entity.Community;
 
@@ -16,7 +17,15 @@ import android.widget.TextView;
 
 public class CommunityAdapter extends BaseAdapter {
 
-	List<Community> communities;
+	private List<Community> communities;
+	
+	private long communityId;
+	
+	private OnCommunityLinkClickListener onCommunityLinkClickListener;
+	
+	public CommunityAdapter() {
+		communityId = AppDalApp.getInstance().getUserCommunityId();
+	}
 
 	@Override
 	public int getCount() {
@@ -63,7 +72,13 @@ public class CommunityAdapter extends BaseAdapter {
 			holder.position.setText(String.valueOf(position + 1));
 			holder.name.setText(community.getName());
 			holder.location.setText(community.getLocation());
-			holder.link.setOnClickListener(linkClickListener);		
+			holder.link.setOnClickListener(linkClickListener);
+			holder.link.setTag(position);
+			community.setPosition(position + 1);
+			
+			if(communityId == -1){
+				holder.link.setImageDrawable(AppDalApp.getInstance().getResources().getDrawable(R.drawable.add_ico));
+			}
 		}
 
 		return convertView;
@@ -73,6 +88,17 @@ public class CommunityAdapter extends BaseAdapter {
 		this.communities = items;
 		this.notifyDataSetChanged();
 	}
+	
+	public OnCommunityLinkClickListener getOnCommunityLinkClickListener() {
+		return onCommunityLinkClickListener;
+	}
+
+	public void setOnCommunityLinkClickListener(
+			OnCommunityLinkClickListener onCommunityLinkClickListener) {
+		this.onCommunityLinkClickListener = onCommunityLinkClickListener;
+	}
+
+
 
 	private class CommunityViewHolder {
 		TextView position;
@@ -80,11 +106,20 @@ public class CommunityAdapter extends BaseAdapter {
 		TextView location;
 		ImageView link;
 	}
+	
+	public interface OnCommunityLinkClickListener{
+		public void onClick(View v, Community community);
+	}
 
 	private OnClickListener linkClickListener = new View.OnClickListener() {
 		@Override
 		public void onClick(View v) {
-
+			int position = (Integer) v.getTag();
+			Community community = communities.get(position);
+			community.setPosition(position + 1);
+			if(onCommunityLinkClickListener != null){
+				onCommunityLinkClickListener.onClick(v, community);
+			}
 		}
 	};
 }

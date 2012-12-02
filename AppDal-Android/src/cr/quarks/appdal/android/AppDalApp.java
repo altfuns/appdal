@@ -1,39 +1,41 @@
 package cr.quarks.appdal.android;
 
+import cr.quarks.appdal.android.entity.Community;
 import cr.quarks.appdal.android.entity.User;
 import cr.quarks.appdal.android.util.Constants;
 import android.app.Application;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-public class AppDalApp extends Application{
-	
+public class AppDalApp extends Application {
+
 	private static AppDalApp instance;
-	
+
 	private SharedPreferences preferences;
-	
+
 	private User user;
-	
+
+	private Community community;
+
 	@Override
-    public void onCreate() {
+	public void onCreate() {
 
-        super.onCreate();
+		super.onCreate();
 
-        instance = this;
-        
-        preferences = PreferenceManager
-                .getDefaultSharedPreferences(this);
+		instance = this;
 
-    }
+		preferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-    @Override
-    public void onTerminate() {
-        super.onTerminate();
-    }
+	}
 
-    public static AppDalApp getInstance() {
-        return instance;
-    }
+	@Override
+	public void onTerminate() {
+		super.onTerminate();
+	}
+
+	public static AppDalApp getInstance() {
+		return instance;
+	}
 
 	public User getUser() {
 		return user;
@@ -42,17 +44,24 @@ public class AppDalApp extends Application{
 	public void setUser(User user) {
 		this.user = user;
 	}
-	
-	public int getUserCommunityId(){
-		 int result = preferences.getInt(Constants.USER_COMMUNITY_ID, -1);
-		 return result;
+
+	public long getUserCommunityId() {
+		long result = preferences.getLong(Constants.USER_COMMUNITY_ID, -1);
+		return result;
 	}
-	
-	public void setUserCommunityId(int id){
+
+	public void setUserCommunityId(long id) {
 		SharedPreferences.Editor editor = preferences.edit();
-		editor.putInt(Constants.USER_COMMUNITY_ID, id);
+		editor.putLong(Constants.USER_COMMUNITY_ID, id);
 		editor.commit();
 	}
-    
-    
+
+	public Community getCommunity() {
+		return community;
+	}
+
+	public void setCommunity(Community community) {
+		this.community = community;
+	}
+
 }

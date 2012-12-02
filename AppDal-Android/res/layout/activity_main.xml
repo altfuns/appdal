@@ -1,48 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:minHeight="64dp" >
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="25dip"
-            android:background="#333"
+            android:id="@+id/main_community_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
-            android:text="Mi Comunidad"
-            android:textColor="#f2f2f2"
-            android:textSize="15sp" />
+            android:text="51"
+            android:textColor="#FBC000"
+            android:textSize="48sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtMiComunidad"
-            android:layout_width="match_parent"
-            android:layout_height="64dip"
-            android:background="#FFF28E"
-            android:gravity="center_vertical"
+            android:id="@+id/main_community_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/main_community_link"
+            android:layout_toRightOf="@+id/main_community_position"
             android:paddingLeft="10dp"
-            android:text="51 San Antonio, Desamparados"
-            android:textSize="20sp" />
+            android:text="San Antonio, Desamparados"
+            android:textSize="22sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="25dip"
-            android:background="#333"
-            android:gravity="center_vertical"
-            android:paddingLeft="10dp"
-            android:text="Otras Comunidades"
-            android:textColor="#f2f2f2"
-            android:textSize="15sp" />
+        <ImageView
+            android:id="@+id/main_community_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#FBC000"
+            android:src="@drawable/right_arrow_ico" />
+    </RelativeLayout>
 
-        <ListView
-            android:id="@+id/main_communities"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </ListView>
-    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#FBC000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dip"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Otras Comunidades"
+        android:textColor="#808080"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/main_communities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
 
 </LinearLayout>

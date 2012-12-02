@@ -33,6 +33,8 @@ public class Community implements Serializable {
 	private long regionId;
 	
 	private String location;
+	
+	private int position;
 
 	public Community(long id, String name, int rankingId, float score,
 			long regionId) {
@@ -98,6 +100,14 @@ public class Community implements Serializable {
 
 	public void setLocation(String location) {
 		this.location = location;
+	}
+
+	public int getPosition() {
+		return position;
+	}
+
+	public void setPosition(int position) {
+		this.position = position;
 	}
 	
 	
