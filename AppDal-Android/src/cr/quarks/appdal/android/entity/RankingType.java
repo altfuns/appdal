@@ -6,11 +6,20 @@ public enum RankingType {
 	
 	private long id;
 	
+	private long colorId;
+	
 	private RankingType(long id){
 		this.id = id;
+		this.colorId = colorId;
 	}
 	
 	public long getId(){
 		return id;
 	}
+
+	public long getColorId() {
+		return colorId;
+	}
+	
+	
 }
