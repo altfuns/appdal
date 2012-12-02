@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:background="#f2f2f2"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minHeight="64dp"
+    android:background="#bada55"
+    android:layout_marginTop="2dip"
     android:orientation="horizontal"
     android:padding="5dip" >
 
     <LinearLayout
-        android:id="@+id/thumbnail"
+        android:id="@+id/community_item_position_content"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_centerVertical="true"
@@ -17,9 +19,9 @@
 
         <TextView
             android:id="@+id/community_item_position"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="1"
+            android:text="999"
             android:layout_centerVertical="true"
             android:gravity="center"
             android:textColor="#000"
@@ -33,25 +35,24 @@
         android:id="@+id/community_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/thumbnail"
-        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_alignTop="@+id/community_item_position_content"
+        android:layout_toRightOf="@+id/community_item_position_content"
         android:text="Comunidad 1"
-        android:textColor="#040404"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:textColor="#333"
+        android:textSize="22sp"
         android:typeface="sans" />
 
     <!-- ubicacion -->
     <TextView
         android:id="@+id/community_item_location"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtComunidad"
+        android:layout_below="@+id/community_item_name"
         android:layout_marginTop="1dip"
-        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/community_item_position_content"
         android:text="Flores, Heredia"
-        android:textColor="#343434"
-        android:textSize="13sp" />
+        android:textColor="#555"
+        android:textSize="14sp" />
 
     <!-- imagen -->
     <ImageView
@@ -60,6 +61,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/ic_launcher" />
+        android:src="@drawable/info_ico" />
 
 </RelativeLayout>

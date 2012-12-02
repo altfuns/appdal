@@ -1,24 +1,16 @@
 package cr.quarks.appdal.android;
 
-import java.io.IOException;
-import java.io.OutputStream;
 import java.util.List;
 
-import org.restlet.data.MediaType;
-import org.restlet.resource.ClientResource;
-import org.restlet.resource.ResourceException;
-
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.ListView;
 import cr.quarks.appdal.android.entity.Community;
-import cr.quarks.appdal.android.resource.CommunityResource;
 import cr.quarks.appdal.android.service.AppDalService;
 import cr.quarks.appdal.android.service.AppDalServiceImpl;
 import cr.quarks.appdal.android.ui.CommunityAdapter;
 import cr.quarks.appdal.android.util.BackgroundTask;
-
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
-import android.widget.ListView;
 
 public class MainActivity extends Activity {
 
