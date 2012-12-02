@@ -38,7 +38,7 @@
         android:layout_alignTop="@+id/community_item_position_content"
         android:layout_toRightOf="@+id/community_item_position_content"
         android:text="Comunidad 1"
-        android:textColor="#333"
+        android:textColor="@android:color/black"
         android:textSize="22sp"
         android:typeface="sans" />
 
@@ -51,8 +51,8 @@
         android:layout_marginTop="1dip"
         android:layout_toRightOf="@+id/community_item_position_content"
         android:text="Flores, Heredia"
-        android:textColor="#555"
-        android:textSize="14sp" />
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
 
     <!-- imagen -->
     <ImageView

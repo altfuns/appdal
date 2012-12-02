@@ -56,7 +56,7 @@
         android:paddingLeft="10dp"
         android:text="Otras Comunidades"
         android:textColor="#808080"
-        android:textSize="15sp" />
+        android:textSize="22sp" />
 
     <ListView
         android:id="@+id/main_communities"
