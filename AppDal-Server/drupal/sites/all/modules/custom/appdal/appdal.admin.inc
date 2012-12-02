@@ -40,18 +40,20 @@ function _update_appdal_data() {
 	module_load_include('php', 'junar_client', 'JunarApiAccess');
 	
 	$region_data = _getPoliticRegionData();
-	$homicidiosDolososURL = 'C:\Users\Rodolfo\git\appdal\AppDal-Server\drupal\sites\all\modules\custom\appdal\response.xml';
-	$homicidiosCulpososURL = 'C:\Users\Rodolfo\git\appdal\AppDal-Server\drupal\sites\all\modules\custom\appdal\response2.xml';
+	$homicidiosDolososURL = 'PERSO-FALLE-POR-HOMIC-27485';
+	$homicidiosCulpososURL = 'HOMIC-CULPO-SEGUN-DISTR-Y';
+//	$homicidiosDolososURL = 'C:\Users\Rodolfo\git\appdal\AppDal-Server\drupal\sites\all\modules\custom\appdal\response.xml';
+//	$homicidiosCulpososURL = 'C:\Users\Rodolfo\git\appdal\AppDal-Server\drupal\sites\all\modules\custom\appdal\response2.xml';
 	
 	// Call Junar to get and process the data
 	_getDataSetFromGrupoInco($homicidiosDolososURL, $region_data, 5, true);
 	_getDataSetFromGrupoInco($homicidiosCulpososURL, $region_data, 4, false);
 
 	// Create or update the nodes for 'comunidades'
-	foreach ($region_data as $key => $region) {
-		_create_comunidad_node($region['region_name'], $region['score'], 
-			$region['region_id'], $key);
-	}
+//	foreach ($region_data as $key => $region) {
+//		_create_comunidad_node($region['region_name'], $region['score'], 
+//			$region['region_id'], $key);
+//	}
 }
 
 /**
@@ -88,8 +90,9 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index, $include_r
 		$junarApiKey = variable_get('junar_client_api_key', $EMPTY_STRING);
 		
 		if ($junarApiKey != $EMPTY_STRING) {
-			//$junarResponse = _callJunarAPI($guid, $junarApiKey);
-		    $junarResponse = simplexml_load_file($guid);
+			$wsResponse = _callJunarAPI($guid, $junarApiKey);
+			$junarResponse = simplexml_load_string($wsResponse);
+//		    $junarResponse = simplexml_load_file($wsResponse);
 			
 			// Check for the result of the request
 		    if ($junarResponse != null) {
@@ -119,7 +122,7 @@ function _getDataSetFromGrupoInco($guid, &$region_data, $start_index, $include_r
 						$temp_last = $provincia_canton . '';	
 					}
 				}
-//				dpm($region_data);
+				dpm($region_data);
 				drupal_set_message('The data from '. $guid . ' was updated successfully');
 			}
 		}
@@ -135,10 +138,10 @@ function _callJunarAPI($guid, $junarApiKey) {
 	$OPEN_DATA_ENDPOINT = 'http://gobiernodigitalcr.cloudapi.junar.com';
 	$OUTPUT_DATA_TYPE = 'xml';
 	
-//    $junarAPIClient = new Junar($junarApiKey, $OPEN_DATA_ENDPOINT);
-//    $datastream = $junarAPIClient->datastream($guid);
-//    $response = $datastream->invoke($params = array(), $output = $OUTPUT_DATA_TYPE);
-//	  return $response;
+    $junarAPIClient = new Junar($junarApiKey, $OPEN_DATA_ENDPOINT);
+    $datastream = $junarAPIClient->datastream($guid);
+    $response = $datastream->invoke($params = array(), $output = $OUTPUT_DATA_TYPE);
+	return $response;
 }
 
 /**
