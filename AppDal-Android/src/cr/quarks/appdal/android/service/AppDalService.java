@@ -10,4 +10,5 @@ public interface AppDalService {
 	public List<Community> retrieveCommunities();
 	
 	public List<Action> getActions();
+	
 }
