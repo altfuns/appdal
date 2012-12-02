@@ -27,6 +27,7 @@ public class MyCommunityActivity extends FragmentActivity {
 
 		titleIndicator = (TabPageIndicator) findViewById(R.id.mycommunity_indicator);
 		titleIndicator.setViewPager(pager);
+		pager.setCurrentItem(1);
 	}
 
 	@Override

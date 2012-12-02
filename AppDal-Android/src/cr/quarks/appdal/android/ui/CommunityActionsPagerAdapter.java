@@ -17,11 +17,11 @@ public class CommunityActionsPagerAdapter extends FragmentPagerAdapter {
 		Fragment result = null;
 		switch (position) {
 		case 0:
-			result = new CommunityServiceFragment();
+			result = CommunityServiceFragment.newInstance();
 			break;
 
 		case 1:
-			result = new CommunityComplaintsFragment();
+			result = CommunityServiceFragment.newInstance();
 			break;
 
 		default:

@@ -2,6 +2,8 @@ package cr.quarks.appdal.android.entity;
 
 import java.io.Serializable;
 
+import android.graphics.Bitmap;
+
 import com.google.gson.annotations.SerializedName;
 
 public class Action implements Serializable {
@@ -24,6 +26,8 @@ public class Action implements Serializable {
 
 	@SerializedName("imagen")
 	private String image;
+
+	private Bitmap bitmap;
 
 	/**
 	 * @param id
@@ -56,8 +60,8 @@ public class Action implements Serializable {
 	}
 
 	public ActionType getType() {
-		if(type == null){
-			type = ActionType.parse(tipo); 
+		if (type == null) {
+			type = ActionType.parse(tipo);
 		}
 		return type;
 	}
@@ -72,6 +76,14 @@ public class Action implements Serializable {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+
+	public Bitmap getBitmap() {
+		return bitmap;
+	}
+
+	public void setBitmap(Bitmap bitmap) {
+		this.bitmap = bitmap;
 	}
 
 }
