@@ -79,6 +79,8 @@ public class CommunityAdapter extends BaseAdapter {
 			if(communityId == -1){
 				holder.link.setImageDrawable(AppDalApp.getInstance().getResources().getDrawable(R.drawable.add_ico));
 			}
+			
+			convertView.setBackgroundColor(parent.getResources().getColor(community.getRankingType().getColorId()));
 		}
 
 		return convertView;

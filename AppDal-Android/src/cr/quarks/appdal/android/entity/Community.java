@@ -71,6 +71,9 @@ public class Community implements Serializable {
 	}
 
 	public RankingType getRankingType() {
+		if(rankingType == null){
+			rankingType = RankingType.parse(rankingId);
+		}
 		return rankingType;
 	}
 

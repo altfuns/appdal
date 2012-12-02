@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name=""> </color>
+    <color name="gris_10">#E6E6E6</color>
+    <color name="gris_20">#CCCCCC</color>
+    <color name="gris_30">#838383</color>
+    <color name="gris_50">#808080</color>
+    
+    <color name="verde_1">#00FF00</color>
+    <color name="verde_2">#8DFF00</color>
+    <color name="verde_3">#BAFF00</color>
+    
+    <color name="amarillo_1">#DFFF00</color>
+    <color name="amarillo_2">#FFFF00</color>
+    <color name="amarillo_3">#FFDF00</color>
+    
+    <color name="anaranjado_1">#FBC000</color>
+    <color name="anaranjado_2">#FF9900</color>
+    
+    <color name="rojo_1">#FF6600</color>
+    <color name="rojo_2">#F14300</color>
+    <color name="rojo_3">#FF0000</color>
 </resources>
