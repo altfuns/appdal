@@ -1,0 +1,3853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+	<row>
+		<column>Provincia y Cantón</column>
+		<column>Distrito</column>
+		<column>Total</column>
+		<column>Método Empleado</column>
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+	</row>
+	<row>
+		<column />
+		<column>Distrito</column>
+		<column>Total</column>
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+		<column />
+	</row>
+	<row>
+		<column />
+		<column />
+		<column />
+		<column>Arma</column>
+		<column>Arma</column>
+		<column>Asfixia por</column>
+		<column>Asfixia por</column>
+		<column>Asfixia</column>
+		<column>Asfixia por</column>
+		<column>Golpes</column>
+		<column>Envene-</column>
+		<column>Quema-</column>
+	</row>
+	<row>
+		<column />
+		<column />
+		<column />
+		<column>de fuego</column>
+		<column>blanca</column>
+		<column>estrangulación</column>
+		<column>sofocación</column>
+		<column>Mecánica</column>
+		<column>sumersión</column>
+		<column />
+		<column>namiento</column>
+		<column>duras</column>
+	</row>
+	<row>
+		<column>Total</column>
+		<column />
+		<column>527</column>
+		<column>349</column>
+		<column>94</column>
+		<column>27</column>
+		<column>7</column>
+		<column>1</column>
+		<column>1</column>
+		<column>41</column>
+		<column>6</column>
+		<column>1</column>
+	</row>
+	<row>
+		<column>Provincia de San José</column>
+		<column />
+		<column>219</column>
+		<column>163</column>
+		<column>28</column>
+		<column>7</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>15</column>
+		<column>4</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Central de San José</column>
+		<column />
+		<column>71</column>
+		<column>61</column>
+		<column>5</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Carmen</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Merced</column>
+		<column>3</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Hospital</column>
+		<column>7</column>
+		<column>5</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Catedral</column>
+		<column>5</column>
+		<column>4</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Zapote</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Francisco de Dos Ríos</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Uruca</column>
+		<column>9</column>
+		<column>8</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Mata Redonda</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pavas</column>
+		<column>21</column>
+		<column>18</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Hatillo</column>
+		<column>7</column>
+		<column>6</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Sebastián</column>
+		<column>14</column>
+		<column>13</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Escazú</column>
+		<column />
+		<column>7</column>
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Escazú</column>
+		<column>3</column>
+		<column>1</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Antonio</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Desamparados</column>
+		<column />
+		<column>30</column>
+		<column>21</column>
+		<column>4</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Desamparados</column>
+		<column>8</column>
+		<column>5</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Miguel</column>
+		<column>4</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan de Dios</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael Arriba</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Antonio</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Patarrá</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael Abajo</column>
+		<column>4</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Los Guido</column>
+		<column>8</column>
+		<column>6</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Tarrazú</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Marcos</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Aserrí</column>
+		<column />
+		<column>5</column>
+		<column>3</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Aserrí</column>
+		<column>4</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Monterrey</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Mora</column>
+		<column />
+		<column>3</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Colón</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tabarcia</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Goicoechea</column>
+		<column />
+		<column>35</column>
+		<column>23</column>
+		<column>5</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>4</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Guadalupe</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Calle Blancos</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Mata de Plátano</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Ipís</column>
+		<column>4</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Rancho Redondo</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Purral</column>
+		<column>24</column>
+		<column>14</column>
+		<column>4</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>4</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Santa Ana</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santa Ana</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Salitral</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Alajuelita</column>
+		<column />
+		<column>13</column>
+		<column>10</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Josecito</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Antonio</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Concepción</column>
+		<column>7</column>
+		<column>4</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Felipe</column>
+		<column>4</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Vásquez de Coronado</column>
+		<column />
+		<column>4</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Isidro</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Dulce Nombre de Jesús</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Acosta</column>
+		<column />
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Palmichal</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Tibás</column>
+		<column />
+		<column>23</column>
+		<column>21</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cinco Esquinas</column>
+		<column>4</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Anselmo Llorente</column>
+		<column>4</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>León XIII</column>
+		<column>11</column>
+		<column>11</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Colima</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Moravia</column>
+		<column />
+		<column>7</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Vicente</column>
+		<column>3</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Trinidad</column>
+		<column>4</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Montes de Oca</column>
+		<column />
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Pedro</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Curridabat</column>
+		<column />
+		<column>5</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Granadilla</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tirrases</column>
+		<column>3</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Pérez Zeledón</column>
+		<column />
+		<column>6</column>
+		<column>4</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Isidro de El General</column>
+		<column>4</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Barú</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>León Cortés</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Pablo</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Alajuela</column>
+		<column />
+		<column>71</column>
+		<column>28</column>
+		<column>22</column>
+		<column>5</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>12</column>
+		<column>1</column>
+		<column>1</column>
+	</row>
+	<row>
+		<column>Central de Alajuela</column>
+		<column />
+		<column>27</column>
+		<column>12</column>
+		<column>6</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>5</column>
+		<column>0</column>
+		<column>1</column>
+	</row>
+	<row>
+		<column />
+		<column>Alajuela</column>
+		<column>6</column>
+		<column>2</column>
+		<column>1</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San José</column>
+		<column>4</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Carrizal</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Antonio</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Guácima</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Sabanilla</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>7</column>
+		<column>2</column>
+		<column>4</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Río Segundo</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Turrúcares</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+	</row>
+	<row>
+		<column>San Ramón</column>
+		<column />
+		<column>6</column>
+		<column>1</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Ramón</column>
+		<column>3</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santiago</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Peñas Blancas</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Grecia</column>
+		<column />
+		<column>8</column>
+		<column>3</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Grecia</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Isidro</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tacares</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Río Cuarto</column>
+		<column>3</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Bolívar</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>San Mateo</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Mateo</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Naranjo</column>
+		<column />
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San José</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Rosario</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Palmares</column>
+		<column />
+		<column>3</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Palmares</column>
+		<column>2</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Buenos Aires</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Poás</column>
+		<column />
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Pedro</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Carrillos</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>San Carlos</column>
+		<column />
+		<column>8</column>
+		<column>3</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Quesada</column>
+		<column>2</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pital</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Palmera</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cutris</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pocosol</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Zarcero</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Zarcero</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Upala</column>
+		<column />
+		<column>6</column>
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Upala</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Aguas Claras</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San José o Pizote</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Bijagua</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Dos Ríos</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Yolillal</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Los Chiles</column>
+		<column />
+		<column>2</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>El Amparo</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Jorge</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Guatuso</column>
+		<column />
+		<column>4</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Buenavista</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Cartago</column>
+		<column />
+		<column>29</column>
+		<column>19</column>
+		<column>6</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Central de Cartago</column>
+		<column />
+		<column>9</column>
+		<column>6</column>
+		<column>1</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Occidental</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Carmen</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Nicolás</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Aguacaliente o San Francisco</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Corralillo</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Quebradilla</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Paraíso</column>
+		<column />
+		<column>4</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Paraíso</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cachí</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Llanos de Santa Lucía</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>La Unión</column>
+		<column />
+		<column>10</column>
+		<column>10</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tres Ríos</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Diego</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Concepción</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Ramón</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Río Azul</column>
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Jiménez</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Juan Viñas</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Turrialba</column>
+		<column />
+		<column>4</column>
+		<column>1</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Suiza</column>
+		<column>2</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santa Cruz</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>El Chirripó</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>El Guarco</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tejar</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Heredia</column>
+		<column />
+		<column>37</column>
+		<column>27</column>
+		<column>4</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Central de Heredia</column>
+		<column />
+		<column>17</column>
+		<column>12</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Heredia</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Mercedes</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Francisco</column>
+		<column>11</column>
+		<column>8</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Ulloa</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Santo Domingo</column>
+		<column />
+		<column>9</column>
+		<column>7</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santo Domingo</column>
+		<column>3</column>
+		<column>2</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Miguel</column>
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Paracito</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santa Rosa</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Santa Bárbara</column>
+		<column />
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Pedro</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Juan</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>San Rafael</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Santiago</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Ángeles</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Belén</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Antonio</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Flores</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Joaquín</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Sarapiquí</column>
+		<column />
+		<column>4</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Puerto Viejo</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Virgen</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Horquetas</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Guanacaste</column>
+		<column />
+		<column>25</column>
+		<column>8</column>
+		<column>9</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Liberia</column>
+		<column />
+		<column>8</column>
+		<column>2</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Liberia</column>
+		<column>8</column>
+		<column>2</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Nicoya</column>
+		<column />
+		<column>4</column>
+		<column>1</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Nicoya</column>
+		<column>2</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Nosara</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Santa Cruz</column>
+		<column />
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tempate</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tamarindo</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Bagaces</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Bagaces</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Fortuna</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Carrillo</column>
+		<column />
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Filadelfia</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Sardinal</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Cañas</column>
+		<column />
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cañas</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Abangares</column>
+		<column />
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Las Juntas</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Nandayure</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Pablo</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>La Cruz</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Cruz</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Garita</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Puntarenas</column>
+		<column />
+		<column>65</column>
+		<column>39</column>
+		<column>16</column>
+		<column>5</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Central de Puntarenas</column>
+		<column />
+		<column>17</column>
+		<column>10</column>
+		<column>6</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Puntarenas</column>
+		<column>8</column>
+		<column>5</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pitahaya</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Paquera</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Barranca</column>
+		<column>6</column>
+		<column>4</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Chacarita</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Esparza</column>
+		<column />
+		<column>4</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Espíritu Santo</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Macacona</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>San Rafael</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Buenos Aires</column>
+		<column />
+		<column>4</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Buenos Aires</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Potrero Grande</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Chánguena</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Biolley</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Montes de Oro</column>
+		<column />
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Miramar</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Osa</column>
+		<column />
+		<column>7</column>
+		<column>4</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Puerto Cortés</column>
+		<column>3</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Palmar</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Sierpe</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Piedras Blancas</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Aguirre</column>
+		<column />
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Quepos</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Savegre</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Golfito</column>
+		<column />
+		<column>4</column>
+		<column>2</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Golfito</column>
+		<column>3</column>
+		<column>1</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pavón</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Parrita</column>
+		<column />
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Parrita</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Corredores</column>
+		<column />
+		<column>19</column>
+		<column>14</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Corredor</column>
+		<column>6</column>
+		<column>2</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>La Cuesta</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Canoas</column>
+		<column>11</column>
+		<column>10</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Garabito</column>
+		<column />
+		<column>6</column>
+		<column>2</column>
+		<column>1</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Jacó</column>
+		<column>5</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Tárcoles</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Provincia de Limón</column>
+		<column />
+		<column>81</column>
+		<column>65</column>
+		<column>9</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Limón</column>
+		<column />
+		<column>27</column>
+		<column>22</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Limón</column>
+		<column>25</column>
+		<column>22</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Valle La Estrella</column>
+		<column>2</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Pococí</column>
+		<column />
+		<column>21</column>
+		<column>16</column>
+		<column>4</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Guápiles</column>
+		<column>10</column>
+		<column>8</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Jiménez</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Rita</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Roxana</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cariari</column>
+		<column>6</column>
+		<column>4</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Colorado</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Siquirres</column>
+		<column />
+		<column>5</column>
+		<column>3</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Siquirres</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pacuarito</column>
+		<column>3</column>
+		<column>1</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Alegría</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Talamanca</column>
+		<column />
+		<column>3</column>
+		<column>3</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Cahuita</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Telire</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Matina</column>
+		<column />
+		<column>11</column>
+		<column>10</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Matina</column>
+		<column>1</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Batán</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Carrandí</column>
+		<column>8</column>
+		<column>7</column>
+		<column>0</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column>Guácimo</column>
+		<column />
+		<column>14</column>
+		<column>11</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Guácimo</column>
+		<column>7</column>
+		<column>5</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Pocora</column>
+		<column>5</column>
+		<column>4</column>
+		<column>1</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+	<row>
+		<column />
+		<column>Duacarí</column>
+		<column>2</column>
+		<column>2</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+		<column>0</column>
+	</row>
+</table>

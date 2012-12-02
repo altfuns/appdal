@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * @file
+ * Content AppDAL module install file.
+ */
+ 
+/**
+ *	Implements hook_schema().
+ */
+function appdal_schema() {
+	$schema['appdal_politic_region'] = array(
+    'description' => 'AppDAL politic region.',
+    'fields' => array(
+      'prid' => array(
+        'type' => 'int',
+        'size' => 'normal',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'description' => 'Primary Key: Unique value ID.',
+      ),
+      'name' => array(
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+        'description' => 'Policital region name.',
+      ),
+      'parent_prid' => array(
+        'type' => 'int',
+        'size' => 'normal',
+        'default' => -1,
+        'description' => 'Political Region parent id.',
+      ),
+    ),
+    'primary key' => array('prid'),
+    'indexes' => array(
+      'name_index' => array('name'),
+    ),
+    'foreign keys' => array(
+      'appdal_prid_fk' => array(
+        'table' => 'appdal_politic_region',
+        'columns' => array('prid' => 'parent_prid'),
+        ),
+     ),
+  );
+  return $schema;
+} 
+ 
+ ?>
