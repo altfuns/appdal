@@ -3,7 +3,7 @@
     <string name="app_name">AppDal-Android</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">App</string>
     <string name="search">Buscar</string>
     <string name="locate">Ubicar</string>
 
