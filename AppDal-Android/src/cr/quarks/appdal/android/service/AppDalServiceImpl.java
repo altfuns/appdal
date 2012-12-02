@@ -1,9 +1,6 @@
 package cr.quarks.appdal.android.service;
 
-import java.io.BufferedOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.List;
 
@@ -20,13 +17,14 @@ import cr.quarks.appdal.android.entity.Community;
 
 public class AppDalServiceImpl implements AppDalService {
 
-	private final String BASE_URL = "http://200.122.178.180:8080/appdal/appdal/views/comunidades";
+	private final String BASE_VIEWS_URL = "http://200.122.178.70:8080/appdal/appdal/views/";
 
 	@Override
 	public List<Community> retrieveCommunities() {
+		final String endPointComunidades = "comunidades";
 		List<Community> result = null;
 
-		String response = executeRequest(BASE_URL);
+		String response = executeRequest(BASE_VIEWS_URL + endPointComunidades);
 		
 		result = fromJsonList(response);
 		
@@ -35,8 +33,14 @@ public class AppDalServiceImpl implements AppDalService {
 
 	@Override
 	public List<Action> getActions() {
-		// TODO Auto-generated method stub
-		return null;
+		final String endPointAcciones = "acciones";
+		List<Action> result = null;
+		
+		String response = executeRequest(BASE_VIEWS_URL + endPointAcciones);
+		
+		result = fromJsonListActions(response);
+		
+		return result;
 	}
 
 	private String executeRequest(String url) {
@@ -64,6 +68,16 @@ public class AppDalServiceImpl implements AppDalService {
 
         Gson parser = gsonBuilder.create();
         Type listType = new TypeToken<List<Community>>() {
+        }.getType();
+
+        return parser.fromJson(json, listType);
+    }
+	
+	public List<Action> fromJsonListActions(String json) {
+        GsonBuilder gsonBuilder = new GsonBuilder();
+
+        Gson parser = gsonBuilder.create();
+        Type listType = new TypeToken<List<Action>>() {
         }.getType();
 
         return parser.fromJson(json, listType);

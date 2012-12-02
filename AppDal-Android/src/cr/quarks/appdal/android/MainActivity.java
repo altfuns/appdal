@@ -2,31 +2,29 @@ package cr.quarks.appdal.android;
 
 import java.util.List;
 
-import org.restlet.resource.Post;
-
-import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
+import cr.quarks.appdal.android.entity.Action;
 import cr.quarks.appdal.android.entity.Community;
 import cr.quarks.appdal.android.service.AppDalService;
 import cr.quarks.appdal.android.service.AppDalServiceImpl;
 import cr.quarks.appdal.android.ui.CommunityAdapter;
 import cr.quarks.appdal.android.ui.CommunityBar;
-import cr.quarks.appdal.android.ui.CommunitySelectionActivity;
 import cr.quarks.appdal.android.ui.MyCommunityActivity;
 import cr.quarks.appdal.android.util.BackgroundTask;
+import cr.quarks.appdal.android.util.LogIt;
 
 public class MainActivity extends Activity {
 
 	private ListView communitiesListView;
 
 	private List<Community> communities;
+	
+	private List<Action> actions;
 
 	private CommunityAdapter adapter;
 
@@ -86,6 +84,22 @@ public class MainActivity extends Activity {
 					communitiesListView.setSelection(community.getPosition());
 				}
 
+			}
+		};
+		
+		new BackgroundTask() {
+
+			@Override
+			public void work() {
+				AppDalService service = new AppDalServiceImpl();
+				actions = service.getActions();
+				
+				LogIt.d(actions, "actions");
+			}
+
+			@Override
+			public void done() {
+				
 			}
 		};
 	}
