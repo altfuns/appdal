@@ -69,7 +69,6 @@ class DataStream {
          * @param int page the page number of the data, use in combination with limit
          * @param int limit the limit of the data to return, use in combination with page
          */
-
         if ($this->authkey == '')
         {
             throw new Exception('Please configure your auth_key, get one at http://www.junar.com/developers/');
@@ -116,11 +115,7 @@ class DataStream {
         $response = file_get_contents($this->baseUri . $url);
 
         // parsing the content
-        if (in_array($this->output, array('', 'prettyjson', 'json_array'))) {
-            $this->response = @json_decode($response, true);
-        } else {
-            $this->response = $response;
-        }
+        $this->response = $response;
 
         return $this->response;
     }
