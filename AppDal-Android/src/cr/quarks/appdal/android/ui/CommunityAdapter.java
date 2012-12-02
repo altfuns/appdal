@@ -8,15 +8,16 @@ import cr.quarks.appdal.android.entity.Community;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class CommunityAdapter extends BaseAdapter{
+public class CommunityAdapter extends BaseAdapter {
 
 	List<Community> communities;
-	
+
 	@Override
 	public int getCount() {
 		return communities.size();
@@ -34,51 +35,56 @@ public class CommunityAdapter extends BaseAdapter{
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		
+
 		CommunityViewHolder holder = null;
-        LayoutInflater inflater = (LayoutInflater) parent.getContext()
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        Community community = communities.get(position);
-        if (convertView == null) {
-            convertView = inflater.inflate(R.layout.community_item_layout, null);
+		LayoutInflater inflater = (LayoutInflater) parent.getContext()
+				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		Community community = communities.get(position);
+		if (convertView == null) {
+			convertView = inflater
+					.inflate(R.layout.community_item_layout, null);
 
-            holder = new CommunityViewHolder();
-            holder.position = (TextView) convertView
-                    .findViewById(R.id.community_item_position);
-            holder.name = (TextView) convertView
-                    .findViewById(R.id.community_item_name);
-            holder.location = (TextView) convertView
-                    .findViewById(R.id.community_item_location);
-            holder.add = (ImageView) convertView
-                    .findViewById(R.id.community_item_link);
+			holder = new CommunityViewHolder();
+			holder.position = (TextView) convertView
+					.findViewById(R.id.community_item_position);
+			holder.name = (TextView) convertView
+					.findViewById(R.id.community_item_name);
+			holder.location = (TextView) convertView
+					.findViewById(R.id.community_item_location);
+			holder.link = (ImageView) convertView
+					.findViewById(R.id.community_item_link);
 
-            convertView.setTag(holder);
-        } else {
-            holder = (CommunityViewHolder) convertView.getTag();
-        }
+			convertView.setTag(holder);
+		} else {
+			holder = (CommunityViewHolder) convertView.getTag();
+		}
 
-        if(community != null){
-        	holder.position.setText(String.valueOf(position + 1));
-        	holder.name.setText(community.getName());
-        	holder.location.setText(community.getLocation());
-        }
+		if (community != null) {
+			holder.position.setText(String.valueOf(position + 1));
+			holder.name.setText(community.getName());
+			holder.location.setText(community.getLocation());
+			holder.link.setOnClickListener(linkClickListener);		
+		}
 
-        return convertView;
+		return convertView;
 	}
-	
-	public void setItems(List<Community> items){
+
+	public void setItems(List<Community> items) {
 		this.communities = items;
 		this.notifyDataSetChanged();
 	}
 
-	
 	private class CommunityViewHolder {
-        TextView position;
+		TextView position;
+		TextView name;
+		TextView location;
+		ImageView link;
+	}
 
-        TextView name;
-        
-        TextView location;
+	private OnClickListener linkClickListener = new View.OnClickListener() {
+		@Override
+		public void onClick(View v) {
 
-        ImageView add;
-    }
+		}
+	};
 }
