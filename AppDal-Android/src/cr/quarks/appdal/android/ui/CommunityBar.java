@@ -63,7 +63,7 @@ public class CommunityBar extends LinearLayout {
 			communityNameTextView.setText(community.getName());
 			int color = getResources().getColor(
 					community.getRankingType().getColorId());
-			communityPositionTextView.setTextColor(color);
+			communityPositionTextView.setBackgroundColor(color);
 			separator.setBackgroundColor(color);
 			linkImageView.setBackgroundColor(color);
 		}
