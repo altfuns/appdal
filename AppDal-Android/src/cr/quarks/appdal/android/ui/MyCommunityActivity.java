@@ -1,12 +1,19 @@
 package cr.quarks.appdal.android.ui;
 
-import cr.quarks.appdal.android.R;
-import android.app.Activity;
-import android.os.Bundle;
+import com.viewpagerindicator.TabPageIndicator;
 
-public class MyCommunityActivity extends Activity{
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
+import cr.quarks.appdal.android.R;
+
+public class MyCommunityActivity extends FragmentActivity{
 
 	private CommunityBar communityBar;
+	
+	private ViewPager pager;
+
+    private TabPageIndicator titleIndicator;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +21,13 @@ public class MyCommunityActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_mycommunity);
 		communityBar  = (CommunityBar) findViewById(R.id.mycommunity_community_bar);
+		
+		pager = (ViewPager) findViewById(R.id.mycommunity_pager);
+        pager.setAdapter(new CommunityActionsPagerAdapter(
+                getSupportFragmentManager()));
+
+        titleIndicator = (TabPageIndicator) findViewById(R.id.mycommunity_indicator);
+        titleIndicator.setViewPager(pager);
 	}
 	
 	@Override

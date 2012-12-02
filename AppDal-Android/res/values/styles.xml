@@ -1,5 +1,15 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppTheme" parent="android:Theme.Light"></style>
+    <style name="AppTheme" parent="android:Theme.Light">
+        
+        <!-- Page Indicator -->
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+    
+    <!-- ViewPager Indicator Styles -->
+     <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textColor">@color/gris_50</item>
+    </style>
 
 </resources>
