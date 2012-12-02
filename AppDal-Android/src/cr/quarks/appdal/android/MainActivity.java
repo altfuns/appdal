@@ -91,11 +91,14 @@ public class MainActivity extends Activity {
 					communityPositionTextView.setTextColor(color);
 					separator.setBackgroundColor(color);
 					linkImageView.setBackgroundColor(color);
+					
 				}
 
 				adapter = new CommunityAdapter();
 				adapter.setItems(communities);
 				communitiesListView.setAdapter(adapter);
+				
+				communitiesListView.setSelection(community.getPosition());
 			}
 		};
 	}
