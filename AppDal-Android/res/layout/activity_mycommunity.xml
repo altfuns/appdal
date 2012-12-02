@@ -3,6 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
+
+    <cr.quarks.appdal.android.ui.CommunityBar
+        android:id="@+id/mycommunity_community_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </cr.quarks.appdal.android.ui.CommunityBar>
 
 </LinearLayout>

@@ -3,17 +3,18 @@ package cr.quarks.appdal.android;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import cr.quarks.appdal.android.entity.Action;
 import cr.quarks.appdal.android.entity.Community;
 import cr.quarks.appdal.android.service.AppDalService;
 import cr.quarks.appdal.android.service.AppDalServiceImpl;
 import cr.quarks.appdal.android.ui.CommunityAdapter;
+import cr.quarks.appdal.android.ui.CommunityBar;
+import cr.quarks.appdal.android.ui.MyCommunityActivity;
 import cr.quarks.appdal.android.util.BackgroundTask;
 import cr.quarks.appdal.android.util.LogIt;
 
@@ -27,13 +28,7 @@ public class MainActivity extends Activity {
 
 	private CommunityAdapter adapter;
 
-	private TextView communityPositionTextView;
-
-	private TextView communityNameTextView;
-	
-	private View separator;
-	
-	private ImageView linkImageView;
+	private CommunityBar communityBar;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -52,10 +47,8 @@ public class MainActivity extends Activity {
 	private void initComponents() {
 
 		communitiesListView = (ListView) findViewById(R.id.main_communities);
-		communityPositionTextView = (TextView) findViewById(R.id.main_community_position);
-		communityNameTextView = (TextView) findViewById(R.id.main_community_name);
-		separator = (View) findViewById(R.id.main_separator);
-		linkImageView = (ImageView) findViewById(R.id.main_community_link);
+		communityBar = (CommunityBar) findViewById(R.id.main_community_bar);
+
 	}
 
 	private void loadStartData() {
@@ -84,22 +77,13 @@ public class MainActivity extends Activity {
 			@Override
 			public void done() {
 				Community community = AppDalApp.getInstance().getCommunity();
-				if (community != null) {
-					communityPositionTextView.setText(String.valueOf(community
-							.getPosition()));
-					communityNameTextView.setText(community.getName());
-					int color = getResources().getColor(community.getRankingType().getColorId());
-					communityPositionTextView.setTextColor(color);
-					separator.setBackgroundColor(color);
-					linkImageView.setBackgroundColor(color);
-					
-				}
-
 				adapter = new CommunityAdapter();
 				adapter.setItems(communities);
 				communitiesListView.setAdapter(adapter);
-				
-				communitiesListView.setSelection(community.getPosition());
+				if (community != null) {
+					communitiesListView.setSelection(community.getPosition());
+				}
+
 			}
 		};
 		
@@ -118,5 +102,17 @@ public class MainActivity extends Activity {
 				
 			}
 		};
+	}
+
+	@Override
+	protected void onResume() {
+		if (communityBar != null) {
+			communityBar.updateContent();
+		}
+		super.onResume();
+	}
+	
+	public void openCommunity(View view){
+		startActivity(new Intent(this, MyCommunityActivity.class));
 	}
 }
