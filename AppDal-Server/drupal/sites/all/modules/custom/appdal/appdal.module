@@ -54,3 +54,7 @@ function appdal_menu() {
 function appdal_node_view($node, $view_mode, $langcode) {
 	dpm($node);
 }
+
+function appdal_form_alter(&$form, &$form_state, $form_id) {
+	dpm($form);
+}
