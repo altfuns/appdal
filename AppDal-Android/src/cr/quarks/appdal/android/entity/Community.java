@@ -32,6 +32,7 @@ public class Community implements Serializable {
 
 	private long regionId;
 	
+	@SerializedName("location")
 	private String location;
 	
 	private int position;

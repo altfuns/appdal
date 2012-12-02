@@ -4,9 +4,12 @@ import java.util.List;
 
 import org.restlet.resource.Post;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import cr.quarks.appdal.android.entity.Community;
@@ -26,6 +29,10 @@ public class MainActivity extends Activity {
 	private TextView communityPositionTextView;
 
 	private TextView communityNameTextView;
+	
+	private View separator;
+	
+	private ImageView linkImageView;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -46,6 +53,8 @@ public class MainActivity extends Activity {
 		communitiesListView = (ListView) findViewById(R.id.main_communities);
 		communityPositionTextView = (TextView) findViewById(R.id.main_community_position);
 		communityNameTextView = (TextView) findViewById(R.id.main_community_name);
+		separator = (View) findViewById(R.id.main_separator);
+		linkImageView = (ImageView) findViewById(R.id.main_community_link);
 	}
 
 	private void loadStartData() {
@@ -65,7 +74,7 @@ public class MainActivity extends Activity {
 							AppDalApp.getInstance().setCommunity(community);
 							break;
 						}
-						
+
 						i++;
 					}
 				}
@@ -78,6 +87,10 @@ public class MainActivity extends Activity {
 					communityPositionTextView.setText(String.valueOf(community
 							.getPosition()));
 					communityNameTextView.setText(community.getName());
+					int color = getResources().getColor(community.getRankingType().getColorId());
+					communityPositionTextView.setTextColor(color);
+					separator.setBackgroundColor(color);
+					linkImageView.setBackgroundColor(color);
 				}
 
 				adapter = new CommunityAdapter();

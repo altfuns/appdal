@@ -1,6 +1,5 @@
 package cr.quarks.appdal.android.entity;
 
-import android.database.CursorJoiner.Result;
 import cr.quarks.appdal.android.R;
 
 public enum RankingType {

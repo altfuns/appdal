@@ -44,6 +44,7 @@
     </RelativeLayout>
 
     <View
+        android:id="@+id/main_separator"
         android:layout_width="match_parent"
         android:layout_height="1dip"
         android:background="#FBC000" />
