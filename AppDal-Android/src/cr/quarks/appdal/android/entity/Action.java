@@ -13,12 +13,15 @@ public class Action implements Serializable {
 
 	@SerializedName("id")
 	private long id;
-	
+
 	@SerializedName("nombre")
 	private String name;
-	
+
+	@SerializedName("tipo")
+	private String tipo;
+
 	private ActionType type;
-	
+
 	@SerializedName("imagen")
 	private String image;
 
@@ -52,12 +55,15 @@ public class Action implements Serializable {
 		this.name = name;
 	}
 
-	public String getType() {
-		return type.getKey();
+	public ActionType getType() {
+		if(type == null){
+			type = ActionType.parse(tipo); 
+		}
+		return type;
 	}
 
-	public void setType(String type) {
-		this.type = ActionType.parse(type);
+	public void setType(ActionType type) {
+		this.type = type;
 	}
 
 	public String getImage() {
@@ -67,5 +73,5 @@ public class Action implements Serializable {
 	public void setImage(String image) {
 		this.image = image;
 	}
-	
+
 }

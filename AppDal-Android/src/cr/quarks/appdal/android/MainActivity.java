@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
 	private ListView communitiesListView;
 
 	private List<Community> communities;
-	
+
 	private List<Action> actions;
 
 	private CommunityAdapter adapter;
@@ -72,6 +72,10 @@ public class MainActivity extends Activity {
 						i++;
 					}
 				}
+				
+				actions = service.getActions();
+				
+				LogIt.d(this, actions.size());
 			}
 
 			@Override
@@ -86,22 +90,7 @@ public class MainActivity extends Activity {
 
 			}
 		};
-		
-		new BackgroundTask() {
 
-			@Override
-			public void work() {
-				AppDalService service = new AppDalServiceImpl();
-				actions = service.getActions();
-				
-				LogIt.d(actions, "actions");
-			}
-
-			@Override
-			public void done() {
-				
-			}
-		};
 	}
 
 	@Override
@@ -111,8 +100,8 @@ public class MainActivity extends Activity {
 		}
 		super.onResume();
 	}
-	
-	public void openCommunity(View view){
+
+	public void openCommunity(View view) {
 		startActivity(new Intent(this, MyCommunityActivity.class));
 	}
 }

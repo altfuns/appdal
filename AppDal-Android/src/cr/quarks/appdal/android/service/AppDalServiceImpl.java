@@ -17,7 +17,7 @@ import cr.quarks.appdal.android.entity.Community;
 
 public class AppDalServiceImpl implements AppDalService {
 
-	private final String BASE_VIEWS_URL = "http://200.122.178.70:8080/appdal/appdal/views/";
+	private final String BASE_VIEWS_URL = "http://200.122.178.180:8080/appdal/appdal/views/";
 
 	@Override
 	public List<Community> retrieveCommunities() {
