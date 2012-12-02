@@ -21,7 +21,7 @@ public class CommunityActionsPagerAdapter extends FragmentPagerAdapter {
 			break;
 
 		case 1:
-			result = CommunityServiceFragment.newInstance();
+			result = CommunityComplaintsFragment.newInstance();
 			break;
 
 		default:

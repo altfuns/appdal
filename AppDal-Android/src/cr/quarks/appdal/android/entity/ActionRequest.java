@@ -29,6 +29,10 @@ public class ActionRequest implements Serializable {
 	@SerializedName("field_longitud")
 	private String longitud;
 
+	
+	public ActionRequest() {
+		// TODO Auto-generated constructor stub
+	}
 	/**
 	 * @param title
 	 * @param type
@@ -49,7 +53,7 @@ public class ActionRequest implements Serializable {
 	}
 	
 	private String parseFieldValue(String value) {
-		return "{\"und\":[{\"nid\":\"" + value + "\"}]}";
+		return  value ;
 	}
 
 	public String getLatitud() {
@@ -98,5 +102,17 @@ public class ActionRequest implements Serializable {
 
 	public void setActionReference(String actionReference) {
 		this.actionReference = parseFieldValue(actionReference);
+	}
+	
+	public String getJson() {
+		String result = "{";
+		
+		result += "\"field_referencia_nodo\":{\"und\":[{\"nid\":\"" + actionReference + "\"}]}," + 
+				"\"body\":\"" + body + "\", \"field_latitud\":{\"und\":[{\"nid\":\"-9.1241243\"}]}," +
+				"\"field_longitud\":{\"und\":[{\"nid\":\"-8.14512\"}]}," +
+				"\"title\":\"" + title + "\", \"type\":\"" + type + "\"";
+		
+		result += "}";
+		return result;
 	}
 }

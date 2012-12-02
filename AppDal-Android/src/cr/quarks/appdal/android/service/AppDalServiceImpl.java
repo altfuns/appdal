@@ -2,7 +2,9 @@ package cr.quarks.appdal.android.service;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.restlet.data.MediaType;
 import org.restlet.representation.Representation;
@@ -22,7 +24,7 @@ public class AppDalServiceImpl implements AppDalService {
 
 	private static final String BASE_URL = "http://200.122.178.180:8080/appdal/appdal/";
 	private final String BASE_VIEWS_URL = BASE_URL + "views/";
-	private final String BASE_NODE_URL = BASE_URL + "node/";
+	private final String BASE_NODE_URL = BASE_URL + "node";
 
 	@Override
 	public List<Community> retrieveCommunities() {
@@ -88,8 +90,7 @@ public class AppDalServiceImpl implements AppDalService {
 
 	@Override
 	public boolean submitActionRequest(ActionRequest request) {
-		Gson parser = new Gson();
-		String jsonRequest = parser.toJson(request);
+		String jsonRequest = request.getJson();
 		
 		return executePostRequest(BASE_NODE_URL, jsonRequest);
 	}
@@ -101,7 +102,11 @@ public class AppDalServiceImpl implements AppDalService {
 		Representation response = null;
 		
 		try {
-			response = cr.post(data, MediaType.APPLICATION_JSON);
+			cr.get(MediaType.APPLICATION_JSON);
+			Map<String, Object> attrs = new HashMap<String, Object>();
+			attrs.put("Content-typ", "application/json; charset=UTF-8");
+			cr.getRequest().setAttributes(attrs);
+			response = cr.post(data);
 			LogIt.d(response, "post response");
 			return true;
 		} catch (ResourceException e) {
